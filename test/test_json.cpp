@@ -116,6 +116,20 @@ int test_pushKV1()
 	cout << blockHashes1.write() << endl;
 }
 
+int test_num()
+{
+	UniValue uniNum(UniValue::VARR);
+	uniNum.push_back(12345);
+	cout << uniNum.write() << endl;
+
+	//UniValue uniStr(UniValue::VSTR);
+	UniValue uniStr(UniValue::VARR);
+	uniStr.push_back("abcde");
+	cout << uniStr.write() << endl;
+
+}
+
+
 
 
 int main (int argc, char *argv[])
@@ -124,6 +138,7 @@ int main (int argc, char *argv[])
 	//test_from_text();
 	//test_from_text1();
 	//test_push_back();
-	test_pushKV1();
+	//test_pushKV1();
+	test_num();
 	return 0;
 }

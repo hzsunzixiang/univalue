@@ -1,7 +1,7 @@
 
 "silent cs add /data/ericksun/workspace/ia_web_proj/trunk/ia_web_64/wcerp/cscope_wcerp.out
 "silent cs add /data/ericksun/workspace/ia_web_proj/trunk/ia_web_64/wcerp/cscope_web.out
-silent cs add /home/ericksun/univalue/cscope_my.out
+silent cs add /home/StephenSun/univalue/cscope_my.out
 if has("cscope")
             set cscopetag   " 使支持用 Ctrl+]  和 Ctrl+t 快捷键在代码间跳来跳去
             " check cscope for definition of a symbol before checking ctags:
